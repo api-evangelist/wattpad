@@ -1,0 +1,62 @@
+{
+    "name": "Wattpad",
+    "description": "Wattpad is the best place to read and share stories.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1683-wattpad.jpg",
+    "tags": [
+        "books",
+        "have api",
+        "reading",
+        "stories"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/wattpad\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Wattpad",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/1683-wattpad.jpg",
+            "humanURL": "http:\/\/www.wattpad.com\/api_doc",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/wattpad-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.wattpad.com\/"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blog.wattpad.com\/feed\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/wattpad"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/wattpad"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/Wattpad"
+        },
+        {
+            "type": "Twitter",
+            "url": "http:\/\/twitter.com\/wattpad"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.wattpad.com\/api_doc"
+        }
+    ]
+}
