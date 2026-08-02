@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.wattpad.com/
+status_page: https://status.wattpad.com/
+public_api:
+  status: discontinued
+  notes: >-
+    Wattpad operated a public developer API (developer.wattpad.com, api.wattpad.com
+    v2-v5) but quietly discontinued public access around April 2018 with no formal
+    announcement; developer.wattpad.com now 301-redirects to www.wattpad.com and
+    issued API keys were invalidated. The underlying API services remain in use by
+    Wattpad's own apps only.
+  evidence:
+  - https://steemit.com/wattpad/@storytellercz/wattpad-discontinues-their-api-service
+  - developer.wattpad.com -> 301 -> https://www.wattpad.com/ (probed 2026-07-21)
+  - https://api.wattpad.com/v4/ -> 404 (probed 2026-07-21)
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []

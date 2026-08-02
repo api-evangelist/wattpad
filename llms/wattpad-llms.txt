@@ -1,0 +1,29 @@
+# Wattpad
+
+> Wattpad is a Toronto-based social storytelling platform where a global community of writers and readers share serialized original fiction. Acquired by Naver (WEBTOON) in 2021. Wattpad does not currently offer a public developer API — its former developer program (developer.wattpad.com) was discontinued around April 2018 and the API is now internal-only.
+
+This profile is maintained by the API Evangelist network (api-evangelist/wattpad).
+
+## Company
+
+- [Website](https://www.wattpad.com): The Wattpad reading and writing platform
+- [Company site](https://company.wattpad.com): Corporate information, press, and media kit
+- [Blog](https://company.wattpad.com/blog): Company news and announcements
+- [Support / Help Center](https://support.wattpad.com/hc): Zendesk help center
+- [Status page](https://status.wattpad.com/): Platform service status
+- [GitHub organization](https://github.com/Wattpad): Open-source infrastructure tooling (no API SDKs)
+
+## Policies
+
+- [Terms of Service](https://policies.wattpad.com/terms/)
+- [Privacy Policy](https://policies.wattpad.com/privacy/)
+
+## API surface
+
+- No public API: the former developer API (api.wattpad.com v2-v5) was closed to the public around April 2018; developer.wattpad.com redirects to the homepage and API keys were invalidated.
+
+## Catalog artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/wattpad/refs/heads/main/apis.yml): APIs.json profile for Wattpad
+- [Lifecycle](https://raw.githubusercontent.com/api-evangelist/wattpad/refs/heads/main/lifecycle/wattpad-lifecycle.yml): Status page + public-API retirement record
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/wattpad/refs/heads/main/security/wattpad-domain-security.yml): TLS/HSTS/DNS security posture probe

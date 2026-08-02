@@ -1,22 +1,47 @@
 aid: wattpad
 name: Wattpad
-description: 'Wattpad is a company surfaced as a portfolio company of union-square-ventures, version-one-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Wattpad is a Toronto-based social storytelling platform where a global
+  community of more than 90 million writers and readers create, share, and
+  read serialized original fiction across every genre. Founded in 2006 and
+  acquired by Naver (WEBTOON) in 2021, Wattpad extends its stories into
+  publishing, film, and TV through Wattpad WEBTOON Studios. Wattpad formerly
+  operated a public developer API (developer.wattpad.com), but public access
+  was discontinued around April 2018 and the API is now internal-only, so this
+  profile captures the company's web properties and operational surface rather
+  than an active API program.
 url: https://raw.githubusercontent.com/api-evangelist/wattpad/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.squarespace-cdn.com/content/5f1b3f20d14261210b6a0a7e/18dfb9b8-8ade-433d-8937-96589517bd8d/Media-Kit_Box_Logos_V1.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - union-square-ventures
 - version-one-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Storytelling
+- Publishing
+- Entertainment
+- Media
+- Social Network
+- Books
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,28 @@ maintainers:
 common:
 - type: Website
   url: https://wattpad.com
+- type: Support
+  url: https://support.wattpad.com/hc
+- type: Blog
+  url: https://company.wattpad.com/blog
+- type: GitHubOrganization
+  url: https://github.com/Wattpad
+- type: TermsOfService
+  url: https://policies.wattpad.com/terms/
+- type: PrivacyPolicy
+  url: https://policies.wattpad.com/privacy/
+- type: Login
+  url: https://www.wattpad.com/login
+- type: StatusPage
+  url: https://status.wattpad.com/
+- type: Lifecycle
+  url: lifecycle/wattpad-lifecycle.yml
+- type: LLMsTxt
+  url: llms/wattpad-llms.txt
+- type: DomainSecurity
+  url: security/wattpad-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
