@@ -2,25 +2,27 @@ generated: '2026-07-21'
 method: searched
 source: live HTTP probes of /.well-known/ paths on wattpad.com hosts
 host: https://www.wattpad.com
-notes: >-
-  www.wattpad.com returns 403 (edge/WAF block for non-browser clients) on all
-  /.well-known/ paths probed; api.wattpad.com returns 404 for security.txt.
-  No well-known discovery documents were retrievable. Wattpad's public
-  developer API was discontinued (developer.wattpad.com redirects to the
-  homepage), so no OIDC/OAuth discovery surface is expected.
-documents:
-- path: /.well-known/security.txt
-  status: 403
-- path: /.well-known/openid-configuration
-  status: 403
-- path: /.well-known/oauth-authorization-server
-  status: 403
-- path: /.well-known/api-catalog
-  status: 403
-- path: /.well-known/ai-plugin.json
-  status: 403
-- host: https://api.wattpad.com
-  path: /.well-known/security.txt
-  status: 404
-- path: /llms.txt
-  status: 404
+notes: www.wattpad.com returns 403 (edge/WAF block for non-browser clients) on all /.well-known/ paths
+  probed; api.wattpad.com returns 404 for security.txt. No well-known discovery documents were retrievable.
+  Wattpad's public developer API was discontinued (developer.wattpad.com redirects to the homepage), so
+  no OIDC/OAuth discovery surface is expected.
+hosts:
+- host: https://www.wattpad.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
+  - path: /.well-known/security.txt
+    status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
